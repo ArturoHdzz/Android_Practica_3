@@ -72,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(view -> txv.setVisibility(View.GONE));
         btn1.setOnClickListener(view -> {
             txv.setVisibility(View.VISIBLE);
+            priNum = 0;
             txv.setText("0");
         });
 
